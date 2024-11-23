@@ -10,12 +10,14 @@ Prompts to restart the computer after successful activation.
 Silent Operation: Suppresses unnecessary output using //nologo and redirects irrelevant outputs to nul.
 
 ## Structure
-### @echo off: Disables command echoing to keep the output clean.
+#### @echo off:
+Disables command echoing to keep the output clean.
 
-title and cls: Sets a title for the script window and clears the screen for better readability.
+#### title and cls: 
+Sets a title for the script window and clears the screen for better readability.
 
 ## Activation Steps:
-### Set Product Key: Uses the command:
+#### Set Product Key: Uses the command:
 bat
 Copy code
 cscript //nologo c:\windows\system32\slmgr.vbs /ipk NPPR9-FWDCX-D2C8J-H872K-2YT43 >nul
